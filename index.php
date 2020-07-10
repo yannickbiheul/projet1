@@ -10,17 +10,7 @@
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <div class="headerTitle">
-            <a href="#accueil">Yannick Biheul</a>
-        </div>
-        <nav>
-            <a href="#apropos">À Propos</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <?php include('header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -68,6 +58,7 @@
             </div>
         </section>
 
+
         <!-- PORTFOLIO -->
         <section id="portfolio">
             <div class="sectionTitle">
@@ -80,7 +71,33 @@
 
         <!-- CONTACT -->
         <section id="contact">
-
+            <div class="sectionTitle">
+                <h2>Contact</h2>
+                <div class="separation">
+                    <span></span>
+                </div>
+            </div>
+            <div class="containerContact">
+                <form action="cible.php" method="POST">
+                    
+                    <p class="element">
+                        <label for="name">Votre nom</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p class="element">
+                        <label for="mail">Votre mail</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </p>
+                    <p class="element">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </p>
+                    <p class="element">
+                        <input type="submit" value="Envoyer">
+                    </p>
+                    
+                </form>
+            </div>
         </section>
 
     </main>
