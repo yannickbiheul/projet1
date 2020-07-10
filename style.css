@@ -1,0 +1,202 @@
+/* GENERAL */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    --bleu1: #3498db;
+    --bleu2: #2980b9;
+    --gris1: #ecf0f1;
+    --gris2: #bdc3c7;
+}
+
+
+
+/* HEADER */
+header {
+    width: 100vw;
+    height: 60px;
+    background-color: var(--bleu2);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* HEADERTITLE */
+.headerTitle {
+    width: 20%;
+}
+.headerTitle>a {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 20px #000;
+}
+/* NAV */
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav>a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+nav>a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ACCUEIL */
+#accueil {
+    height: 100vh;
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%), url('images/fond-route.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAccueil {
+    /* border: 1px solid #fff; */
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.containerAccueil>h1 {
+    font-size: 3em;
+    text-shadow: 1px 1px 20px #000;
+}
+.containerAccueil>p {
+    margin-top: -20px;
+    text-shadow: 1px 1px 20px #000;
+}
+
+.button {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.button>a {
+    border: 1px solid #fff;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--bleu2);
+}
+.button>a:hover {
+    width: 92%;
+    height: 92%;
+}
+
+
+
+/* A PROPOS */
+#apropos {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle {
+    /* border: 1px solid #000; */
+    width: 75%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.separation {
+    /* border: 1px solid #000; */
+    width: 25%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separation>span {
+    width: 100px;
+    height: 5px;
+    background-color: var(--bleu2);
+}
+
+.containerApropos {
+    /* border: 1px solid #000; */
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moi {
+    /* border: 1px solid #000; */
+    width: 25%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.scolaire {
+    /* border: 1px solid #000; */
+    width: 25%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.experience {
+    /* border: 1px solid #000; */
+    width: 25%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* PORTFOLIO */
+#portfolio {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gris1);
+}
+
+
+/* CONTACT */
