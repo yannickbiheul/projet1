@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yannick Biheul</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
@@ -93,7 +94,7 @@
                         <textarea name="message" id="message" required></textarea>
                     </p>
                     <p class="element">
-                        <input type="submit" value="Envoyer">
+                        <input type="submit" value="Envoyer" class="boutonEnvoyer">
                     </p>
                     
                 </form>

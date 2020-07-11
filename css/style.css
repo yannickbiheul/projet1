@@ -234,6 +234,16 @@ nav>a:hover {
     margin-top: 10px;
 }
 
+.boutonEnvoyer {
+    background-color: var(--bleu2);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
 
 
                                         /* FOOTER */
