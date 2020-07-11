@@ -9,3 +9,4 @@
 
 * **Journal Juillet 2020**
     * 10 Juillet : Ajout des fichiers HTML et CSS.
+    * 11 Juillet : Ajout du Footer.

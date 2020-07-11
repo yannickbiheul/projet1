@@ -1,4 +1,4 @@
-/* GENERAL */
+                                        /* GENERAL */
 html, body {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ html, body {
 
 
 
-/* HEADER */
+                                        /* HEADER */
 header {
     width: 100vw;
     height: 60px;
@@ -23,7 +23,6 @@ header {
     align-items: center;
     color: #fff;
 }
-/* HEADERTITLE */
 .headerTitle {
     width: 20%;
 }
@@ -35,7 +34,6 @@ header {
     color: #fff;
     text-shadow: 1px 1px 20px #000;
 }
-/* NAV */
 nav {
     width: 80%;
     display: flex;
@@ -53,7 +51,7 @@ nav>a:hover {
 
 
 
-/* ACCUEIL */
+                                        /* ACCUEIL */
 #accueil {
     height: 100vh;
     background: linear-gradient(225deg, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%), url('images/fond-route.jpg');
@@ -112,7 +110,7 @@ nav>a:hover {
 
 
 
-/* A PROPOS */
+                                        /* A PROPOS */
 #apropos {
     min-height: 75vh;
     display: flex;
@@ -189,7 +187,7 @@ nav>a:hover {
 }
 
 
-/* PORTFOLIO */
+                                        /* PORTFOLIO */
 #portfolio {
     min-height: 75vh;
     display: flex;
@@ -201,7 +199,7 @@ nav>a:hover {
 
 
 
-/* CONTACT */
+                                        /* CONTACT */
 #contact {
     min-height: 100vh;
     display: flex;
@@ -237,7 +235,20 @@ nav>a:hover {
 }
 
 
-/* CIBLE.PHP */
+
+                                        /* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+    background-color: var(--bleu2);
+}
+
+
+
+                                        /* CIBLE.PHP */
 .containerCible {
     width: 100vw;
     height: 100vh;
