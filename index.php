@@ -35,13 +35,23 @@
                     <span></span>
                 </div>
             </div>
-            <div class="containerApropos">
-                <div class="moi">
-                    <h3>Qui suis-je</h3>
-                    <p>Je m’appelle Yannick Biheul, j’ai 38 ans. Je suis né et je vis à Quimper, dans le Finistère.</p>
-                    <p>Je suis intéressé par les nouvelles technologies, les jeux vidéo, le cinéma, la musique et la lecture.</p>
-                    <p>Je travaille en tant que pilote de production chez un équipementier automobile, et souhaite devenir développeur web.</p>
+            <div class="quiSuisJe">
+                <div class="quiSuisJeTitre">
+                    
                 </div>
+                <div class="quiSuisJeContainer">
+                    <div class="quiSuisJeImage">
+                        <img src="images/moi_mini.jpg" alt="Yannick Biheul">
+                    </div>
+                    <div class="quiSuisJeTexte">
+                        <h3>Qui suis-je</h3>
+                        <p>Je m’appelle Yannick Biheul, j’ai 38 ans. Je suis né et je vis à Quimper, dans le Finistère.</p>
+                        <p>Je suis intéressé par les nouvelles technologies, les jeux vidéo, le cinéma, la musique et la lecture.</p>
+                        <p>Je travaille en tant que pilote de production chez un équipementier automobile, et souhaite devenir développeur web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="containerApropos">
                 <div class="scolaire">
                     <h3>Parcours Scolaire</h3>
                     <p>BEP ICEF (Installateur Conseil en Équipement du Foyer option Électroménager)
@@ -54,7 +64,7 @@
                     <h3>Parcours Professionnel</h3>
                     <p>Quelques missions intérim dans des usines agro-alimentaire entre 2001 et 2002.</p>
                     <p>Vendeur chez Conforama à Quimper en 2002.</p>
-                    <p>Opérateur de production chez Livbag à Pont de Buis de 2003 à aujourd'hui.</p>
+                    <p>Opérateur de production chez Livbag à Pont de Buis de 2003 à 2020, pilote de production depuis mars 2020 à aujourd'hui.</p>
                 </div>
             </div>
         </section>
