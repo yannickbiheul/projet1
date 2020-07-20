@@ -155,10 +155,6 @@ nav>a:hover {
     align-items: center;
 }
 
-.quiSuisJeTitre {
-    /* border: 1px solid #000; */
-}
-
 .quiSuisJeContainer {
     display: flex;
     justify-content: space-around;
