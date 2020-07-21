@@ -71,12 +71,33 @@ nav>a:hover {
     height: 4px;
     margin-top: 3px;
     margin-bottom: 3px;
+    transition-duration: 0.5s;
+    position: absolute;
+}
+
+.span1 {
+    top: 5px;
+}
+.span3 {
+    bottom: 5px;
+}
+
+.span1Open {
+    transform: rotate(-45deg);
+    top: 15px;
+}
+.span2Open {
+    display: none;
+}
+.span3Open {
+    transform: rotate(45deg);
+    bottom: 15px;
 }
 
 .menuBurger {
     position: fixed;
     top: 0;
-    left: -100vw;;
+    left: -100vw;
     width: 100vw;
     height: 100vh;
     background-color: var(--bleu2);
@@ -112,38 +133,7 @@ nav>a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1200px) {
-    header {
-        justify-content: flex-start;
-    }
-    .headerTitle {
-        width: 50%;
-    }
-    nav {
-        display: none;
-    }
-    .boutonBurger {
-        display: flex;
-    }
-}
 
-@media screen and (max-width: 600px) {
-    header {
-        justify-content: flex-start;
-    }
-    .headerTitle {
-        width: 75%;
-    }
-    nav {
-        display: none;
-    }
-    .containerAccueil>h1 {
-        font-size: 2em;
-    }
-    .containerAccueil>p {
-        display: none;
-    }
-}
 
 
 
@@ -266,10 +256,13 @@ nav>a:hover {
 
 .quiSuisJeImage>img {
     width: 200px;
-    border-radius: 100%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    box-shadow: 4px 4px 4px #999;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .quiSuisJeTexte {
@@ -283,16 +276,17 @@ nav>a:hover {
 .containerApropos {
     /* border: 1px solid #000; */
     width: 75%;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .scolaire {
-    /* border: 1px solid #000; */
+    border: 2px solid #ccc;
+    box-shadow: 4px 4px 4px #999;
     width: 35%;
-    height: 95%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,9 +295,10 @@ nav>a:hover {
 }
 
 .experience {
-    /* border: 1px solid #000; */
+    border: 2px solid #ccc;
+    box-shadow: 4px 4px 4px #999;
     width: 35%;
-    height: 95%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -336,7 +331,7 @@ nav>a:hover {
 .containerContact {
     /* border: 1px solid #000; */
     width: 75%;
-    height: 600px;
+    min-height: 600px;
 }
 
 .element {
@@ -391,4 +386,83 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+
+                                        /* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+    header {
+        justify-content: flex-start;
+    }
+    .headerTitle {
+        width: 50%;
+    }
+    nav {
+        display: none;
+    }
+    .boutonBurger {
+        display: flex;
+    }
+
+    #apropos {
+        padding-top: 60px;
+    }
+    .quiSuisJe {
+        flex-direction: column;
+    }
+    .quiSuisJeContainer {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .quiSuisJeImage>img {
+        margin-right: 0;
+    }
+    .containerApropos {
+        flex-direction: column;
+        width: 100%;
+    }
+    .scolaire {
+        width: 95%;
+        margin-bottom: 40px;
+        border: none;
+        box-shadow: none;
+    }
+    .experience {
+        width: 95%;
+        margin-bottom: 40px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #contact {
+        padding-top: 60px;
+    }
+    .containerContact {
+        width: 100%;
+    }
+    .element>input {
+        width: 85%;
+    }
+    .element>textarea {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        justify-content: flex-start;
+    }
+    .headerTitle {
+        width: 75%;
+    }
+    nav {
+        display: none;
+    }
+    .containerAccueil>h1 {
+        font-size: 2.5em;
+    }
+    .containerAccueil>p {
+        display: none;
+    }
 }

@@ -10,9 +10,9 @@
 </header>
 
 <div class="boutonBurger">
-    <span></span>
-    <span></span>
-    <span></span>
+    <span class="span1"></span>
+    <span class="span2"></span>
+    <span class="span3"></span>
 </div>
 
 <div class="menuBurger">
